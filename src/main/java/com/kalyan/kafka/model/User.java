@@ -7,6 +7,7 @@ public class User {
     private String name;
     private String email;
 
+    public User(){}
     @Override
     public String toString() {
         return "User{" +
