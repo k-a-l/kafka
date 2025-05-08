@@ -1,0 +1,9 @@
+
+POST http://localhost:8080/api/v1/kafka/publish
+content-Type: application/json
+
+{
+  "id": "33434-453qf3-ee",
+  "name": "kalyan",
+  "email": "Kalyan@gmail.com"
+}

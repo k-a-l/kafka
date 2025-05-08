@@ -9,8 +9,16 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic springBootTopic(){
-        return TopicBuilder.name("springBootTopic").build();
+        return TopicBuilder
+                .name("springBootTopic")
+                .build();
 
+    }
+    @Bean
+    public NewTopic springBootTopic_json(){
+        return TopicBuilder
+                .name("springBootTopic_json")
+                .build();
     }
 
 }
